@@ -86,8 +86,6 @@ class Rancher:
             HelmC.SET, 'ingress.extraAnnotations.nginx\.org/websocket-services=rancher'
         ]
 
-        print(defaultArgs + arguments)
-
         if self.__useCustomRancherVersion():
             defaultArgs.append(
                 HelmC.VERSION, self.version
