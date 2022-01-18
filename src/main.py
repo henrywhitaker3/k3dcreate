@@ -11,7 +11,7 @@ from Utils.Argparser import Argparser
 from Kubernetes.Cluster import Cluster
 from Kubernetes.K3d import K3d
 
-VERSION='1.0.0'
+VERSION='1.0.1'
 
 def rollback(k3d: K3d) -> None:
     k3d.delete()
