@@ -52,6 +52,7 @@ To customise the installation, you can use the following options:
 
 | Option | Default | Description |
 | --- | --- | --- |
+| `--name` | `null` | This sets the name of the cluster |
 | `--nodes` | `1` | This sets the number of nodes in cluster |
 | `--nginx` | `False` | When this flag is present, nginx-ingress will be installed as the default ingress instead of traefik |
 | `--version` | `null` | You can pass the name (and tag) of a k3s image here to use that in the cluster instead of the k3d default |
