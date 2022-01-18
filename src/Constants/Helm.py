@@ -1,0 +1,10 @@
+class Helm:
+    SET = '--set'
+    NAMESPACE = '--namespace'
+    CREATE_NAMESPACE = '--create-namespace'
+    INSTALL = 'install'
+    REPO = 'repo'
+    UPDATE = 'update'
+    ADD = 'add'
+    LIST = 'list'
+    VERSION = '--version'

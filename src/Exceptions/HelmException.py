@@ -1,0 +1,2 @@
+class HelmException(Exception):
+    pass

@@ -1,0 +1,2 @@
+class KubectlException(Exception):
+    pass
